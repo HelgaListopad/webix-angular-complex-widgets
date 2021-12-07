@@ -17,8 +17,9 @@ After cloning the repo, run the following commands:
 
 ```
 npm install
-npm run start
+npm start
 ```
+Then open `//localhost:4200/` (default port).
 
 How to import and use a Complex Widget
 -------
