@@ -1,4 +1,4 @@
-Webix FileManager v.9.1.0
+Webix FileManager v.9.1.4
 ================
 
 https://webix.com
