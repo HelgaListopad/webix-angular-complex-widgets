@@ -1,4 +1,4 @@
-import { Component, Input, ElementRef, OnDestroy, OnInit, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
+import { Component, ElementRef, OnDestroy, OnInit, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
 // @ts-ignore 
 import * as fileManager from '../../webix/filemanager/codebase/filemanager.js';
 
@@ -16,7 +16,7 @@ export class FileManagerComponent implements OnDestroy, OnInit {
     @Output() onStateChange = new EventEmitter<any>();
 
     constructor(private root: ElementRef) {
-        this.app = new fileManager.App({
+        this.app = new (fileManager as any).App({
             url: "https://docs.webix.com/filemanager-backend/"
         });
 

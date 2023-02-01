@@ -1,8 +1,7 @@
-import { Component, Input, ElementRef, OnDestroy, OnInit, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
+import { Component, ElementRef, OnDestroy, OnInit, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
 // @ts-ignore 
 import '../../webix/kanban/codebase/kanban.js';
 import { TasksService } from '../kanbanData/tasks.service';
-import { Task } from '../kanbanData/tasks';
 
 @Component({
     encapsulation: ViewEncapsulation.None,
